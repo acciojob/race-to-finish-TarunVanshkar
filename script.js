@@ -45,4 +45,7 @@ promises.push(promise5)
 const finalPromise = Promise.any(promises);
 
 const div = document.getElementById("output");
-div.innerText = finalPromise;
+
+finalPromise.then((result) => {
+    div.innerText = result
+})
