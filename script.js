@@ -36,7 +36,6 @@ const promise5 = new Promise((resolve, reject) => {
     }, random * 1000);
 })
 
-const promises = [];
 promises.push(promise1)
 promises.push(promise2)
 promises.push(promise3)
